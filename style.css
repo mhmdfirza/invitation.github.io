@@ -1,0 +1,227 @@
+/* Font Libary */
+@font-face {
+    font-family: 'against' ;
+    src: url('https://fonts.cdnfonts.com/css/against-2');
+    font-family: "Vivaldi";
+    src: url('https://fonts.cdnfonts.com/css/vivaldi');
+    font-family: "hidayatullah";
+    src: url('hidayatullah DEMO.otf');
+
+}
+
+/* Reset margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    background-image:url("background.jpeg");
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.inv {
+    font-size: 72px;
+    font-family: 'against';
+    color: #F8BE7E;
+    margin-top: auto;
+    padding: 15px;
+    text-align: center;
+    line-height: 1px;
+}
+
+.navbar2 {
+    font-size: 18px;
+    font-family: 'against';
+    color: #F8BE7E;
+    margin-top: auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.acara {
+    font-size: 72px;
+    font-family: 'vivaldi';
+    color: #F8BE7E;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc; /*GLOW*/
+    text-align:center;
+
+}
+
+.nama{
+    font-size: 72px;
+    font-family: 'hidayatullah';
+    color: #F8BE7E;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc; /*GLOW*/
+    text-align:center;
+}
+
+.img1{
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+    height: auto; 
+}
+/*progress*/
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+
+/* BAGIAN BAWAH*/
+
+
+.dc {
+    text-align: center;
+    line-height: 18px;
+    font-size: 38px;
+    font-family: 'against';
+    color: #F8BE7E;
+    text-shadow:1px 1px 2px #fff, 1px 1px 10px #ccc; /*GLOW*/
+    text-align:center;
+    
+}
+
+.om{
+    text-align: center;
+    line-height: 2px;
+    font-size: 22px;
+    font-family: 'against';
+    color: #F8BE7E;
+    text-shadow:1px 1px 2px #fff, 1px 1px 10px #ccc; /*GLOW*/
+    text-align:center;
+}
+
+
+.wn{
+    text-align: center;
+    line-height: 2px;
+    font-size: 16px;
+    font-family: 'against';
+    color: #F8BE7E;
+    text-shadow:1px 1px 2px #fff, 1px 1px 10px #ccc; /*GLOW*/
+    text-align:center;
+}
+
+.loc{
+    text-align: center;
+    line-height: 10px;
+    font-size: 26px;
+    font-family: 'against';
+    color: #F8BE7E;
+    text-shadow:1px 1px 2px #fff, 1px 1px 10px #ccc; /*GLOW*/
+    text-align:center;
+}
+
+
+.objekkecil1{
+    max-width: 100%;;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.map-container {
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+    max-width: 100%;
+    height: 50px; /* Tentukan tinggi tetap */
+    padding-bottom: 56.25%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 2.5px solid #a40ed1;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 40px;
+}
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.map-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    text-decoration: none;
+}
+
+
+
+h1, h2 {
+    margin: 0 0 30px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .inv {
+        font-size: 32px;
+        font-family: 'against';
+        color: #F8BE7E;
+        margin-top: auto;
+        padding: 15px;
+        text-align: center;
+        line-height: 1px;
+    }
+
+    .loc {
+        text-align: center;
+        line-height: 18px;
+        font-size: 26px;
+        font-family: 'against';
+        color: #F8BE7E;
+        text-shadow:1px 1px 2px #fff, 1px 1px 10px #ccc; /*GLOW*/
+        text-align:center;
+    }
+
+    .nav-links {
+        display: none; 
+    }
+    
+    nav {
+        flex-direction: column;
+    }
+    
+    .map-container {
+        margin-bottom: 10px;
+    }
+    
+    .hero {
+        padding: 50px 20px;
+    }
+    
+    .content {
+        padding: 20px 10px;
+    }
+}

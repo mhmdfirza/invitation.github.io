@@ -35,7 +35,7 @@ body, html {
     padding: 15px;
     text-align: center;
     line-height: 1px;
-        text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc; /*GLOW*/
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc; /*GLOW*/
 }
 
 .navbar2 {
